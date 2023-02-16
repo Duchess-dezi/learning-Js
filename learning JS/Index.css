@@ -1,0 +1,67 @@
+body{
+    background-color: beige;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-weight: bold;
+
+}
+#container{
+    position: fixed;
+    align-content: center;
+    width: 800px;
+    height: 800px;
+    background-image: url("train.jpg");
+    background-repeat: no-repeat;
+    
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 50px;
+    cursor: pointer;
+
+
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    font-size: 25px;
+    margin-left: 35vh;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+#increment-btn{
+    background-color: darkred;
+}
+
+#save-btn{
+    background-color: green;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
