@@ -9,10 +9,13 @@ body{
 #container{
     position: fixed;
     align-content: center;
+    margin-left: 4in;
+    padding: 40px;
     width: 800px;
     height: 800px;
     background-image: url("train.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     
 
 }
